@@ -9,7 +9,7 @@
 my_list = [7, 5, 3, 3, 2]
 print('Для выхода нажмите q')
 while True:
-    print(my_list)
+    print(sorted(my_list, reverse=True))
     n = input("Введите новый элемент рейтинга: ")
     if n == 'q':
         break
